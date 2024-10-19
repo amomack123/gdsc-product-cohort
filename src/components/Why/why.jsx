@@ -1,12 +1,13 @@
 import React from 'react';
 import './why.module.css';
+import Image1 from '../../../images/Image1.png'; // Adjusted path to the image
 
 const Why = () => {
   return (
-    <section className="flex mt-24"> {}
+    <section className="flex mt-24">
       <div className="container mx-auto flex"> {/* Use flex to position elements */}
         <div className="w-1/2 text-left"> {/* Left half for text alignment */}
-          <div className="text-[40px] text-[#000000] font-bold mb-4">Why join the Product Cohort?</div> {/* Changed from h2 to div */}
+          <div className="text-[40px] text-[#000000] font-bold mb-4">Why join the Product Cohort?</div>
           <p className="text-[20px] text-[#184065] mb-6">Because we turn your skills into tangible results!</p>
           <article className="mb-8">
             <p className="text-[20px] text-[#555555]">
@@ -28,8 +29,15 @@ const Why = () => {
             Visit Our Projects
           </button>
         </div>
-        {/* Placeholder for images or future content on the right (optional) */}
-        <div className="w-1/2 image-placeholder"></div>
+        {/* Right half for the image */}
+        <div className="w-1/2 flex justify-center items-center ml-[100px]"> {/* Add padding-right here */}
+          <img 
+            src={Image1} 
+            alt="Description of the image" 
+            className="max-w-[90%] h-auto" // Maintain the same max-width for consistency
+            style={{ width: '100%' }} // Set a max width to control size
+          />
+        </div>
       </div>
     </section>
   );
