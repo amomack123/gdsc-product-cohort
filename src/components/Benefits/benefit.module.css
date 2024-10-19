@@ -1,0 +1,39 @@
+.benefits-section {
+    padding: 4rem 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 40px;
+    color: #184065;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .benefits-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .benefit-item {
+    flex: 1;
+    background-color: #F9F9F9;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    color: #184065;
+    margin-bottom: 1rem;
+  }
+  
+  .benefit-item p {
+    font-size: 18px;  /* P2 */
+    color: #555555;
+  }
